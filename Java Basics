@@ -1,0 +1,83 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+
+        /* VARIABLE DEFINITION
+
+        // Integer
+        int myNum = 75;
+        System.out.println(myNum);
+
+        // Float
+        float myFloatNum = 9.99f;
+        System.out.println(myFloatNum);
+
+        // Character
+        char myLetter = 'A';
+        System.out.println(myLetter);
+
+        // Boolean
+        boolean myBool = true;
+        System.out.println(myBool);
+
+        // String
+        String myText;
+        myText = "Hello";
+        System.out.println(myText);
+
+        */
+
+
+        /* LOOPS
+
+        // For Loop
+        for (int i = 1; i <=10; i += 1) {
+            System.out.println("yes " + i);
+        }
+        System.out.println();
+
+        // While Loop
+        int i = 0;
+        while (i <= 10) {
+            System.out.println("YES " + i);
+            i += 1;
+
+        */
+
+
+        // CONDITIONAL STATEMENTS
+
+        int x = 50;
+        int y = 10;
+
+        // If - Then
+        if (x > y) {
+            System.out.println(x + " is greater than " + y + ".");
+        }
+
+        // If - Else
+        if (x >= y) {
+            System.out.println(x + " is greater than or equal to " + y + ".");
+        }   else {
+            System.out.println(x + " is less than " + y + ".");
+        }
+
+        // Else - If
+        if (x == y) {
+            System.out.println(x + " is equal to " + y + ".");
+        }   else if (x > y) {
+            System.out.println(x + " is greater than " + y + ".");
+        }   else {
+            System.out.println(x + " is less than " + y + ".");
+        }
+
+        // Shorthand
+        String ifElseShorthand = (x >= y) ? x + " is greater than or equal to " + y : x + " is less than " + y + ".";
+        System.out.println(ifElseShorthand);
+
+        }
+    }
+
+
